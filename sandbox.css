@@ -1,0 +1,50 @@
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+
+nav {
+	padding: 30px;
+	color: red;
+	text-align: center;
+	border: 1px solid gray;
+	background-color: LightGray;
+}
+h1 {
+	font-family: courier;
+	padding: 10px;
+	text-align: center;
+}
+
+h2 {
+	font-family: courier;
+	padding: 10px;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	font-family: courier;
+	padding: 10px;
+}
+
+/*Style for update posts on home page */
+#update {
+	padding: 20px;
+	background: wheat;
+	border: 2px solid black;
+}
+
+#time {
+	padding = 5px;
+}
