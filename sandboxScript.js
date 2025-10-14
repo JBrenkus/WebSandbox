@@ -19,6 +19,11 @@ function timer() {
 	
 }
 
+function todaysdate() {
+	datec.innerHTML = "Today's date is " + (date.getMonth() + 1) +  "/" + date.getDate() + "/" + date.getFullYear();
+	
+}
+
 //declarations
 var date = new Date();
 var secs = 0;
@@ -27,9 +32,11 @@ var minsecs = 0;
 var ampm = "am";
 const time = document.getElementById('time');
 const counter = document.getElementById('counter');
+const datec = document.getElementById('datec');
 
 
 //main code
+todaysdate();
 timeUpdate();
 setInterval(timer, 1000);
 
