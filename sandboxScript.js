@@ -1,4 +1,4 @@
-// Code by Jacob Brenkus, purpose is to practice for web design and build portfolio
+// Code by J. Brenkus, purpose is to practice for web design and build portfolio
 
 //functions
 function timeUpdate() {

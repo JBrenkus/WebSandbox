@@ -38,6 +38,11 @@ p {
 	padding: 10px;
 }
 
+td {
+	border: 1px solid gray;
+	padding: 10px;
+}
+
 /*Style for update posts on home page */
 #update {
 	padding: 20px;
